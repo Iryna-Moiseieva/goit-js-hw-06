@@ -47,7 +47,7 @@ const ingredientsEl = document.querySelector('#ingredients');
 
 const makeIngredientEl = ingredient => {
   const ingredientEl = document.createElement("li");
-  ingredientEl.textContent = ingredients;
+  ingredientEl.textContent = ingredient;
   ingredientEl.classList.add("item");
   return ingredientEl;
 };
